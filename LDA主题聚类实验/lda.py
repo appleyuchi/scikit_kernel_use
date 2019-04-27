@@ -32,17 +32,17 @@ if __name__ == '__main__':
     test0='./nlp_test0.txt'
     test0_fenci='./nlp_test1.txt'
     fenci(test0,test0_fenci)
-    res1=data_read(test0_fenci)
+    res1=data_read(test0_fenci)#分词
 ###################################
     test0='./nlp_test2.txt'
     test0_fenci='./nlp_test3.txt'
     fenci(test0,test0_fenci)
-    res2=data_read(test0_fenci)
+    res2=data_read(test0_fenci)#分词
 ###################################
     test0='./nlp_test4.txt'
     test0_fenci='./nlp_test5.txt'
     fenci(test0,test0_fenci)
-    res3=data_read(test0_fenci)
+    res3=data_read(test0_fenci)#分词
 
     jieba.suggest_freq('沙瑞金', True)
     # 使用suggest_freq(segment, tune=True) 可调节单个词语的词频,使其(或不能)被分出来
